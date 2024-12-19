@@ -11,7 +11,7 @@ env:
   COVALENT_API_KEY: ${{ secrets.COVALENT_API_KEY }}
   CUSTOM_RELAYER_PRIVATE_KEY: ${{ secrets.CUSTOM_RELAYER_PRIVATE_KEY }}
   CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/bc84c3f5e1d9703372ae7f9baf584bab42f47b27/deployments/base/contracts.json'
-  ENV_TOKEN_ALLOW_LIST: ''
+  ENV_TOKEN_ALLOW_LIST: '0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842,0xd56f6f32473d6321512956a1351d4bcec07914cb,0xdd5e858c0aa9311c4b49bc8d35951f7f069ff46a,0xd56f6f32473d6321512956a1351d4bcec07914cb'
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
